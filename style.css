@@ -1,0 +1,51 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Custom glow effect for the image */
+.raiden-glow {
+    filter: drop-shadow(0 0 15px rgba(168, 85, 247, 0.6)) 
+            drop-shadow(0 0 35px rgba(139, 92, 246, 0.5));
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #111827;
+}
+::-webkit-scrollbar-thumb {
+    background: #a855f7;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #9333ea;
+}
+
+/* Animation for elements on scroll */
+.animate-on-scroll {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.animate-on-scroll.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.nav-link.active {
+    color: #a855f7;
+    font-weight: 600;
+}
+
+.gradient-btn {
+    background-image: linear-gradient(to right, #8b5cf6, #a855f7, #d946ef);
+    background-size: 200% auto;
+    transition: 0.5s;
+}
+
+.gradient-btn:hover {
+    background-position: right center;
+}

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Joice</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-gray-200">
+
+    <!-- Header -->
+    <header id="header" class="fixed top-0 left-0 right-0 z-50 bg-gray-900/80 backdrop-blur-sm transition-shadow duration-300">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#home" class="text-2xl font-bold text-white">
+                Portfolio<span class="text-purple-500">.</span>
+            </a>
+            <nav class="hidden md:flex space-x-8">
+                <a href="#home" class="nav-link text-gray-300 hover:text-purple-400 transition-colors duration-300">Home</a>
+                <a href="#about" class="nav-link text-gray-300 hover:text-purple-400 transition-colors duration-300">About</a>
+                <a href="#portfolio" class="nav-link text-gray-300 hover:text-purple-400 transition-colors duration-300">Portfolio</a>
+                <a href="#contact" class="nav-link text-gray-300 hover:text-purple-400 transition-colors duration-300">Contact</a>
+            </nav>
+            <button id="mobile-menu-btn" class="md:hidden focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden">
+            <a href="#home" class="block py-2 px-6 text-sm hover:bg-gray-800">Home</a>
+            <a href="#about" class="block py-2 px-6 text-sm hover:bg-gray-800">About</a>
+            <a href="#portfolio" class="block py-2 px-6 text-sm hover:bg-gray-800">Portfolio</a>
+            <a href="#contact" class="block py-2 px-6 text-sm hover:bg-gray-800">Contact</a>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-6">
+
+        <!-- Home Section -->
+        <section id="home" class="min-h-screen flex items-center pt-24 md:pt-0">
+            <div class="grid md:grid-cols-2 gap-10 items-center">
+                <div class="animate-on-scroll">
+                    <span class="font-semibold text-purple-400">Full Stack Developer</span>
+                    <h1 class="text-4xl md:text-6xl font-extrabold text-white mt-2 mb-4 leading-tight">
+                        Hi, I'm <span class="text-purple-500">Joice</span><br>From Inazuma
+                    </h1>
+                    <p class="text-gray-400 mb-8 max-w-lg">
+                        I create and maintain beautiful, responsive, and user-friendly websites. My passion is turning ideas into reality through code, building dynamic web applications from the ground up.
+                    </p>
+                    <div class="flex items-center gap-4">
+                        <a href="#portfolio" class="gradient-btn text-white font-bold py-3 px-8 rounded-full shadow-lg shadow-purple-500/30">
+                            My Work
+                        </a>
+                        <div class="flex gap-4">
+                            <!-- Social Icons -->
+                            <a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-purple-500 transition-colors duration-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                            </a>
+                            <a href="#" class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-purple-500 transition-colors duration-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hidden md:block animate-on-scroll" style="animation-delay: 0.2s;">
+                    <div class="relative w-full h-full flex justify-center items-center">
+                        <div class="tenor-gif-embed" data-postid="7728360055376782137" data-share-method="host" data-aspect-ratio="0.564257" data-width="100%">
+                            <a href="https://tenor.com/view/zmel-gif-7728360055376782137">Zmel GIF</a> from 
+                            <a href="https://tenor.com/search/zmel-gifs">Zmel GIFs</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="py-24">
+            <div class="text-center mb-12 animate-on-scroll">
+                <h2 class="text-4xl font-extrabold text-white">About Me</h2>
+                <p class="text-gray-400 mt-2">My introduction</p>
+            </div>
+            <div class="grid md:grid-cols-5 gap-10 items-center">
+                <div class="md:col-span-2 animate-on-scroll">
+                    <div class="rounded-2xl overflow-hidden">
+                        <div class="tenor-gif-embed" data-postid="25131576" data-share-method="host" data-aspect-ratio="1" data-width="100%">
+                            <a href="https://tenor.com/view/bloh-video-game-purple-sleepy-tired-gif-25131576">Bloh Video Game Sticker</a> from 
+                            <a href="https://tenor.com/search/bloh-stickers">Bloh Stickers</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:col-span-3 animate-on-scroll" style="animation-delay: 0.2s;">
+                    <p class="text-gray-400 mb-6">
+                        I am a full-stack developer with expertise in creating robust and scalable web applications. With a strong foundation in both front-end and back-end technologies, I enjoy bringing complex ideas to life. I'm proficient in JavaScript frameworks like React and Node.js, and I'm always eager to learn new technologies to enhance my skillset.
+                    </p>
+                    <div class="grid grid-cols-2 sm:grid-cols-3 gap-4 mb-8 text-center">
+                        <div class="bg-gray-800 p-4 rounded-lg shadow-md">
+                            <h3 class="text-2xl font-bold text-purple-400">02+</h3>
+                            <p class="text-sm text-gray-400">Years experience</p>
+                        </div>
+                        <div class="bg-gray-800 p-4 rounded-lg shadow-md">
+                            <h3 class="text-2xl font-bold text-purple-400">10+</h3>
+                            <p class="text-sm text-gray-400">Completed projects</p>
+                        </div>
+                        <div class="bg-gray-800 p-4 rounded-lg shadow-md col-span-2 sm:col-span-1">
+                            <h3 class="text-2xl font-bold text-purple-400">01+</h3>
+                            <p class="text-sm text-gray-400">Companies worked</p>
+                        </div>
+                    </div>
+                    <a href="#" class="gradient-btn text-white font-bold py-3 px-8 rounded-full shadow-lg shadow-purple-500/30">
+                        Download CV
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="py-24">
+            <div class="text-center mb-12 animate-on-scroll">
+                <h2 class="text-4xl font-extrabold text-white">Portfolio</h2>
+                <p class="text-gray-400 mt-2">Most recent work</p>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project Card 1 -->
+                <div class="bg-gray-800 rounded-lg overflow-hidden group transform hover:-translate-y-2 transition-transform duration-300 shadow-lg animate-on-scroll">
+                    <img src="https://placehold.co/600x400/1f2937/a855f7?text=Project+1" alt="Project 1" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-white mb-2">E-commerce Platform</h3>
+                        <p class="text-gray-400 mb-4 text-sm">A full-featured e-commerce site with product listings, cart, and checkout functionalities.</p>
+                        <a href="#" class="text-purple-400 hover:text-purple-300 font-semibold">View Demo &rarr;</a>
+                    </div>
+                </div>
+                <!-- Project Card 2 -->
+                <div class="bg-gray-800 rounded-lg overflow-hidden group transform hover:-translate-y-2 transition-transform duration-300 shadow-lg animate-on-scroll" style="animation-delay: 0.2s;">
+                    <img src="https://placehold.co/600x400/1f2937/a855f7?text=Project+2" alt="Project 2" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-white mb-2">Task Management App</h3>
+                        <p class="text-gray-400 mb-4 text-sm">A web application to help users organize their tasks, set deadlines, and track progress.</p>
+                        <a href="#" class="text-purple-400 hover:text-purple-300 font-semibold">View Demo &rarr;</a>
+                    </div>
+                </div>
+                <!-- Project Card 3 -->
+                <div class="bg-gray-800 rounded-lg overflow-hidden group transform hover:-translate-y-2 transition-transform duration-300 shadow-lg animate-on-scroll" style="animation-delay: 0.4s;">
+                    <img src="https://placehold.co/600x400/1f2937/a855f7?text=Project+3" alt="Project 3" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-white mb-2">Portfolio Website</h3>
+                        <p class="text-gray-400 mb-4 text-sm">A personal portfolio template designed to showcase skills and projects effectively.</p>
+                        <a href="#" class="text-purple-400 hover:text-purple-300 font-semibold">View Demo &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Contact Section -->
+        <section id="contact" class="py-24">
+            <div class="text-center mb-12 animate-on-scroll">
+                <h2 class="text-4xl font-extrabold text-white">Contact Me</h2>
+                <p class="text-gray-400 mt-2">Get in touch</p>
+            </div>
+            <div class="max-w-2xl mx-auto animate-on-scroll">
+                <form action="#" method="POST" class="space-y-6">
+                    <div>
+                        <label for="name" class="sr-only">Name</label>
+                        <input type="text" name="name" id="name" placeholder="Your Name" class="w-full bg-gray-800 border border-gray-700 rounded-lg py-3 px-4 text-white focus:outline-none focus:ring-2 focus:ring-purple-500">
+                    </div>
+                    <div>
+                        <label for="email" class="sr-only">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Your Email" class="w-full bg-gray-800 border border-gray-700 rounded-lg py-3 px-4 text-white focus:outline-none focus:ring-2 focus:ring-purple-500">
+                    </div>
+                    <div>
+                        <label for="message" class="sr-only">Message</label>
+                        <textarea name="message" id="message" rows="4" placeholder="Your Message" class="w-full bg-gray-800 border border-gray-700 rounded-lg py-3 px-4 text-white focus:outline-none focus:ring-2 focus:ring-purple-500"></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="gradient-btn text-white font-bold py-3 px-10 rounded-full shadow-lg shadow-purple-500/30">
+                            Send Message
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 border-t border-gray-800">
+        <div class="container mx-auto px-6 py-6 text-center text-gray-500">
+            <p>&copy; 2024 Joice. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://tenor.com/embed.js" async type="text/javascript"></script>
+</body>
+</html>
