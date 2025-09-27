@@ -28,4 +28,4 @@ portfolio-app
 - Update `script.js` to add or modify JavaScript functionality as needed.
 
 ## License
-This project is open-source and available for use and modification.
+This project is licensed under the [MIT License](LICENSE).
